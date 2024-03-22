@@ -135,7 +135,7 @@ body{
     margin: 90px 0;
 }
 .operational-details{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 48%;
     /* height: fit-content; */
     justify-content: space-between;
@@ -143,7 +143,7 @@ body{
     flex-wrap: wrap;
 }
 .operational-details1{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 31.7%;
     background-color: #D6E5D8;
     height: 190px;
@@ -173,7 +173,7 @@ body{
 }
 
 .special-section{
-border: 2px solid red;
+/* border: 2px solid red; */
 height: fit-content;
 justify-content: center;
 align-items: center;
@@ -187,11 +187,11 @@ margin-top: 150px;
 }
 .special-content1{
     width: 30%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .special-content3{
     width: 30%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .special-content1,
 .special-content2{
@@ -299,7 +299,7 @@ margin-top: 100px;
 
 
 .top-section{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 150px;
     height: fit-content;
     justify-content: center;
@@ -307,7 +307,7 @@ margin-top: 100px;
 }
 .top-section-container{
     width: 80%;
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     height: fit-content;
 }
 .top-section-container h1{
@@ -317,7 +317,7 @@ margin-top: 100px;
 }
 .three-dishes-content{
     margin-top: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: fit-content;
     justify-content: space-between;
     align-items: center;
@@ -326,7 +326,7 @@ margin-top: 100px;
 .three-dish2,
 .three-dish3{
     width: 32%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #D6E5D8;
     padding: 15px;
     border-radius: 10px;
@@ -364,12 +364,12 @@ margin-top: 100px;
 
 .discount-section{
     margin-top: 120px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: center;
     align-content: center;
 }
 .discount-container{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 80%;
     justify-content: space-between;
     gap: 20px;
@@ -386,7 +386,7 @@ margin-top: 100px;
 .discount2,
 .discount3{
     width: 20%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .discount1{
     height: 90%;
@@ -422,7 +422,7 @@ margin-top: 100px;
 
 .discount4{
     width: 38%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-direction: column;
     gap: 5px;
     font-family: Poppins;
@@ -464,19 +464,19 @@ margin-top: 100px;
 
 .graphics-section{
     margin-top: 150px;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: fit-content;
     justify-content: center;
     align-items: center;
 }
 .graphics-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 80%;
     justify-content: space-between;
 }
 .graphics1,
 .graphics2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 80vh;
 }
 .graphics1{
@@ -651,13 +651,13 @@ margin-top: 100px;
 }
 .review-section{
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: fit-content;
     justify-content: center;
     align-items: center;
 }
 .review-container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
@@ -666,13 +666,13 @@ margin-top: 100px;
     gap: 15px;
 }
 .review-row1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 45%;
     width: 100%;
     justify-content: space-between;
 }
 .review-row2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 53%;
     width: 100%;
     justify-content: space-between;
@@ -680,7 +680,7 @@ margin-top: 100px;
 .review-row1-1,
 .review-row1-2{
     width: 49%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     align-items: center;
     gap: 15px;
     height: 100%;
@@ -730,7 +730,7 @@ margin-top: 100px;
 .review-row2-1,
 .review-row2-2{
     width: 49%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     align-items: center;
     gap: 15px;
     height: 100%;
@@ -740,14 +740,14 @@ margin-top: 100px;
 }
 
 .newsletter-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: fit-content;
     margin-top: 150px;
     justify-content: center;
     align-items: center;
 }
 .newsletter-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
     width: 90%;
     justify-content: space-between;
@@ -759,7 +759,7 @@ margin-top: 100px;
 
 .newsletter-desc,
 .newsletter-textarea{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 49%;
     height: 100%;
     justify-content: center;
@@ -809,7 +809,7 @@ margin-top: 100px;
 footer{
     height: 55vh;
     height: fit-content;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 90px;
     background-color: #D6E5D8;
     align-items: center;
@@ -818,7 +818,7 @@ footer{
 .footer-container{
     height: 40vh;
     height: fit-content;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 90%;
     margin-top: 70px;
     font-family: Poppins;
@@ -826,7 +826,7 @@ footer{
 }
 .footer-div1{
     width: 40%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* height: 100%; */
     flex-flow: column;
     justify-content: space-between;
@@ -838,17 +838,17 @@ footer{
 
 .footer-div2{
     width: 20%;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 }
 
 .footer-div3{
     width: 20%;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .footer-div4{
     width: 20%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .footer-div1-opt2{
     color: #3E3C3C;
@@ -860,7 +860,7 @@ footer{
     color: #3B413A;
 }
 .footer-div1-opt3-icons img{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 10%;
     color: white;
     background-color: rgb(173, 164, 164);
