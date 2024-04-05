@@ -1888,6 +1888,32 @@ footer{
         height: 400px;
     }
 }
+
+@media(max-width:840px){
+    .coop-desc h1{
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+    }
+    .coop-desc p{
+        font-size: 0.9rem !important;
+    }
+}
+@media(max-width:250px){
+    .coop-desc h1{
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+    }
+    .coop-desc p{
+        font-size: 0.7rem !important;
+    }
+}
+@media(max-width:369px){
+    .cooperate1 img{
+        height: 10rem !important;
+        margin-top: 20px !important;
+    }
+}
+
 @media(max-width:320px){
     .review-row1-1-img img,
     .review-row1-2-img img,
