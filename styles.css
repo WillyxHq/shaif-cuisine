@@ -820,10 +820,13 @@ footer{
     height: 40vh;
     height: fit-content;
     /* border: 2px solid black; */
-    width: 90%;
+    width: 80%;
     margin-top: 70px;
     font-family: Poppins;
     margin-bottom: 30px;
+}
+#webcifar{
+    font-size: 18px !important;
 }
 .footer-div1{
     width: 40%;
@@ -834,7 +837,7 @@ footer{
     gap: 10px;
 }
 .footer-div1-opt1 img{
-    width: 30%;
+    width: 5rem !important;
 }
 
 .footer-div2{
@@ -853,11 +856,11 @@ footer{
 }
 .footer-div1-opt2{
     color: #3E3C3C;
-    font-size: 22px;
+    font-size: 19px !important;
     width: 80%;
 }
 .footer-div1-opt3 h1{
-    font-size: 22px;
+    font-size: 20px !important;
     color: #3B413A;
 }
 .footer-div1-opt3-icons img{
@@ -875,11 +878,11 @@ footer{
 .footer-div2 a{
    text-decoration: none;
    color: #3F3C3C;
-   font-size: 25px;
+   font-size: 20px !important;
 }
 .links-footer{
     color: #3B413A !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
     font-weight: 600;
 }
 .footer-div3{
@@ -889,7 +892,7 @@ footer{
 .footer-div3 a{
     text-decoration: none;
     color: #3F3C3C;
-    font-size: 27px;
+    font-size: 20px !important;
  }
  .support-footer{
     color: #3B413A !important;
@@ -904,7 +907,7 @@ footer{
 .footer-div4 a{
     text-decoration: none;
     color: #3F3C3C;
-    font-size: 27px;
+    font-size: 20px !important;
  }
 .contact-footer{
     color: #3B413A !important;

@@ -8,7 +8,7 @@
     align-items: center;
 }
 .container-special{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 60%;
     /* flex-wrap: wrap; */
     justify-content: center;
@@ -24,7 +24,7 @@
 }
 .content1-special{
     width: 30% !important;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border: none;
     background-color: #D6E5D8;
 }
