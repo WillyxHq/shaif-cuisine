@@ -8,13 +8,14 @@
     align-items: center;
 }
 .container-special{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 60%;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 100px;
     height: 60vh;
     height: fit-content;
+    gap: 30px;
 }
 
 .content3-special{
@@ -22,7 +23,7 @@
     /* border: 2px solid green;  */
 }
 .content1-special{
-    width: 26%;
+    width: 30% !important;
     border: 2px solid green;
     border: none;
     background-color: #D6E5D8;
@@ -104,7 +105,12 @@
 }
 
 
-
+@media(max-width:691px){
+    .container-special{
+        justify-content: center;
+        /* align-items: center; */
+    }
+}
 
 
 
