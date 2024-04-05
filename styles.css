@@ -1463,6 +1463,24 @@ footer{
     .newsletter-container{
         height: fit-content;
     }
+    .review-row1-1-desc p,
+    .review-row1-2-desc p,
+    .review-row2-1-desc p,
+    .review-row2-2-desc p{
+        font-size: 0.8rem !important;
+    }
+    .review-row1-1-desc h1,
+    .review-row1-2-desc h1,
+    .review-row2-1-desc h1,
+    .review-row2-2-desc h1{
+        font-size: 1.5rem !important;
+    }
+    .review-row1-1-img img,
+    .review-row1-2-img img,
+    .review-row2-1-img img,
+    .review-row2-2-img img{
+        height: 15rem !important;
+    }
     }
    
 
