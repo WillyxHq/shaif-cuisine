@@ -104,6 +104,53 @@
     font-weight: 600;
 }
 
+#margin-auto{
+    margin: auto;
+}
+#no-space-btw{
+    justify-content: start;
+}
+.three-dishes-content{
+    justify-content: start;
+}
+
+
+/* #ourgoals-img-1 img{
+    height: 29rem !important;
+    width: 24rem;
+}
+#ourgoals-img-2 img{
+    height: 12rem !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1129px){
+    #margin-auto{
+        margin: 0 auto !important;
+        padding-left: 20px !important;
+    }
+}
 
 @media(max-width:691px){
     .container-special{
@@ -112,7 +159,18 @@
     }
 }
 
+@media(max-width:575px){
+    #margin-auto{
 
+    }
+    .vegan-div h1{
+        font-size: 1.2rem !important;
+    }
+    .three-dishes-content,
+    .three-dish1{
+        width: fit-content !important;
+    }
+}
 
 
 @media(max-width:1200px){
@@ -159,9 +217,21 @@
     }
   
 }
+@media(max-width:399px){
+    .menu-hero-meal-content1-opt-1 img,
+    .menu-hero-meal-content2-opt-1 img{
+        height: 9rem;
+    }
+    .food-1{
+        height: 7rem;
+    }
+}
 @media(max-width:440px){
     .content1-special{
         width: 40%;
+    }
+    .vegan-div {
+        font-size: smaller !important;
     }
 }
 

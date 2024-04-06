@@ -29,6 +29,7 @@ body{
     flex-flow: column;
     font-family: Poppins;
     gap: 20px;
+    border: none !important;
 }
 .explore-div-container h1{
     color: #393F38;
@@ -50,6 +51,7 @@ body{
     /* height: 100%; */
     justify-content: space-between;
     font-family: Poppins;
+    border: none !important;
 }
 .menu-hero-meal-content1,
 .menu-hero-meal-content2{
@@ -2127,6 +2129,10 @@ footer{
         width: 62%;
     }
 }
+
+
+
+
 
 
 

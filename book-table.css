@@ -62,6 +62,12 @@ body{
     border-radius: 8px;
     border: none;
 }
+.firstName input:focus,
+.lastName input:focus,
+.myEmail input:focus,
+.mySubject input:focus{
+    outline: none;
+}
 
 /* message-section */
 .message-section h1{
