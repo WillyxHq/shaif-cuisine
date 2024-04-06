@@ -394,6 +394,7 @@ margin-top: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      bbbb0px !important;
 }
 .discount2{
     height: 90%;
@@ -504,7 +505,7 @@ margin-top: 100px;
     justify-content: center;
     align-items: center;
     /* border: 2px solid blue; */
-    margin-top: 90px;
+    margin-top: 5rem !important;
 }
 .cooperate-container{
     /* border: 2px solid red; */
@@ -542,14 +543,14 @@ margin-top: 100px;
 .cooperate1 h1{
     color: #393F38;
     font-family: Poppins;
-    font-weight: 400;
-    font-size: 35px;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
 }
 .cooperate1 p{
     margin-top: 10px;
     color: #3F3C3C;
     font-family: Poppins;
-    font-size: 19px;
+    font-size: 1rem !important;
 }
 .cooperate1 div{
     width: 50%;
@@ -559,20 +560,20 @@ margin-top: 100px;
     font-family: Poppins;
 }
 .cooperate2 h1{
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
     color: #393F38;
 }
 .cooperate2 p{
     margin: 10px 0;
     color: #3F3C3C;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 1rem !important;
 }
 .cooperate2 button{
     color: white;
     background-color: #26643B;
-    width: 28%;
+    width: 10rem !important;
     height: 45px;
     font-size: 20px;
     font-weight: 500;
@@ -750,7 +751,7 @@ margin-top: 100px;
 .newsletter-container{
     /* border: 2px solid black; */
     height: 200px;
-    width: 90%;
+    width: 80% !important;
     justify-content: space-between;
     background-color: #9FDB94;
     align-items: center;
@@ -926,7 +927,7 @@ footer{
     width: 90%;
     height: fit-content;
     align-items: center;
-    font-size: 23px;
+    font-size: 1rem !important;
     font-family: Poppins;
     color: #3F3C3C;
     margin: 20px 0px;
@@ -1346,6 +1347,7 @@ footer{
     .special-content3{
         margin-top: 30px;
     }
+  
 }
 
 @media(max-width:300px){
@@ -1434,6 +1436,9 @@ footer{
     .graphics1 img{
         width: 17%;
     }
+    .newsletter-container{
+        padding: 0rem 0.6rem !important;
+    }
 }
 
 
@@ -1448,13 +1453,18 @@ footer{
     .special-content3{
         width: 100%;
     }
+
+    .newsletter-desc h1{
+        font-size: 1.8rem !important;
+    }
+
     .newsletter-desc p{
         font-family: Poppins;
         width: 100%;
-        font-size: 22px;
+        font-size: 1rem !important;
     }
     .newsletter-textarea input{
-        width: 200px;
+        width: 12.5rem !important;
     }
     .newsletter-textarea,
     .newsletter-desc{
@@ -1462,6 +1472,7 @@ footer{
     }
     .newsletter-container{
         height: fit-content;
+        width: 90% !important;
     }
     .review-row1-1-desc p,
     .review-row1-2-desc p,
