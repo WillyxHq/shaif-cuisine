@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="challenge.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
     <link rel="icon" sizes="16x16" href="Assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header-container flex">
+    <!-- <div class="header-container flex">
         <div class="container flex header-navs">
             <div class="header-logo">
                 <div class="logo-container flex">
@@ -30,10 +33,122 @@
                 <a class="nav-color-d" href="about2.html">About</a>
                 <a class="nav-color-d" href="contact2.html">Contact</a>
                 <a class="nav-color-d book-table" href="book-table2.html">Book Table</a>
-                <img class="hamburger-menu" src="/Assets/hamburger-menu.svg" alt="">
+                <div class="hamburger-menu">
+                    <img src="/Assets/hamburger-menu.svg" alt="">
+                </div>
+
+                
+
+
             </div>
         </div>
-    </div>
+    </div> -->
+
+
+    <div class="container">
+        <!-- NavBar Section -->
+            <nav class="navbar navbar-expand-lg my-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./Assets/logo.svg" alt=""></a>
+                  <button class="navbar-toggler-0 shadow-none d-lg-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ms-auto gap-5">
+                        <li class="nav-item">
+                          <a class="nav-link active fs-5 fw-medium text-secondary" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fs-5 fw-medium text-secondary" href="menu2.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fs-5 fw-medium text-secondary" href="about2.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fs-5 fw-medium text-secondary" href="contact2.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link btn border-2 fs-5 fw-bolder text-light btn-lg px-4" href="book-table2.html" style=" background-color: #26643B">Book Table</a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel"><a class="nav-link active text-secondary" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link text-secondary" href="menu2.html">Menu</a>
+                    <a class="nav-link text-secondary" href="about2.html">About</a>
+                    <a class="nav-link text-secondary" href="contact2.html">Contact</a>
+                    <a class="nav-link text-secondary" href="book-table2.html">Book Table</a></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/Assets/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-5">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 fw-medium text-secondary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-medium text-secondary" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-medium text-secondary" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-medium text-secondary" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn border-2 border-success bg-success fs-5 fw-bolder text-light btn-lg px-4" href="#">Book Table</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="hero-section flex">
        <div class="container width-controller hero-wrapper flex">
             <div class="flavor-paragraph flex">
@@ -148,7 +263,7 @@
                 </div>
                 <div class="three-dish1 three-dish2 flex">
                     <img class="food-1" src="/Assets/food-2.png" alt="">
-                    <div class="vegan-div">
+                    <div class="vegan-div" id="Pesto">
                         <h1>Vegan Pesto Zoodles</h1>
                         <p>$12</p>
                         <img src="./Assets/3star.png" alt="">
@@ -416,5 +531,7 @@
         © copyright 2021 Shaif’s Cuisine | All rights reserved
         </div>
     </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
